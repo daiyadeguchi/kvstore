@@ -1,5 +1,7 @@
 #define TOMBSTONE ((char *)0x1)
 
+#include <stddef.h>
+
 typedef struct {
 	char *key;
 	char *value;
